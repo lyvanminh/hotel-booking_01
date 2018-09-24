@@ -1,1 +1,73 @@
-<% provide :title, t("title_about") %>
+<% provide :title, t(".title") %>
+<div id="tintuc-content">
+    <div class="title">
+        <div class="container">
+            <div class="title-contact" style="height: 50px;">
+                <h1>Tin Tức</h1>
+            </div>
+        </div>
+    </div>
+    <div class="content-news">
+        <div class="container">
+                <div class="post">
+                    <div class="post-image">
+                        <%= image_tag("news1.jpg", :class=>"img-responsive") %>
+                    </div>
+                    <div class="post-title">
+                        <h2><a href="#">Điểm danh những khách sạn "chất" nhất năm châu</a></h2>
+                    </div>
+                    <ul class="post-date">
+                        <li><i class="icon-calendar3">17/09/2016</i></li>
+                        <li><i class="icon-user">/</i>  <a class="thcolorhover" href="#">Cẩm nang du lịch</a></li>
+                    </ul>
+                    <div class="post-content">
+                        <p>Tạp chí du lịch Condé Nast Traveller đã lựa chọn ra khách sạn tốt nhất tại những khu vực khác nhau trên thế giới.</p>
+                        <a href="#" class="more-link">Xem tiếp</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-image">
+                        <%= image_tag("news2.jpg", :class=>"img-responsive") %>
+                    </div>
+                    <div class="post-title">
+                        <h2><a href="#">LẠ LÙNG NHỮNG KHÁCH SẠN... VÔ LÀ KHỎE</a></h2>
+                    </div>
+                    <ul class="post-date">
+                        <li><i class="icon-calendar3">17/09/2016</i></li>
+                        <li><i class="icon-user">/</i>  <a class="thcolorhover" href="#">Cẩm nang du lịch</a></li>
+                    </ul>
+                    <div class="post-content">
+                        <p>Nếu như quyết định đi du lịch trong thời gian tới, có thể bạn sẽ muốn ngó qua danh sách những khách sạn cung cấp các dịch vụ độc và lạ dưới đây.</p>
+                        <a href="#" class="more-link">Xem tiếp</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-image">
+                        <%= image_tag("news3.jpg", :class=>"img-responsive") %>
+                    </div>
+                    <div class="post-title">
+                        <h2><a href="#">Đến 11 khách sạn dưới nước này rồi, bạn sẽ không muốn về nhà nữa</a></h2>
+                    </div>
+                    <ul class="post-date">
+                        <li><i class="icon-calendar3">17/09/2016</i></li>
+                        <li><i class="icon-user">/</i>  <a class="thcolorhover" href="#">Cẩm nang du lịch</a></li>
+                    </ul>
+                    <div class="post-content">
+                        <p>Nếu có cơ hội đặt chân đến những đất nước và thành phố dưới đây, đừng quên ghé thăm những nhà hàng, khách sạn nằm lọt thỏm trong bốn bề xanh rì của đại dương nhé.</p>
+                        <a href="#" class="more-link">Xem tiếp</a>
+                    </div>
+                </div>
+                <ul class="pagination">
+                    <li class="disabled"><a href="#">&laquo;</a></li>
+                    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                    <li class=""><a href="#">2 <span class="sr-only">(current)</span></a></li>
+                    <li class=""><a href="#">3 <span class="sr-only">(current)</span></a></li>
+                    <li class=""><a href="#">4 <span class="sr-only">(current)</span></a></li>
+                    <li class=""><a href="#">5 <span class="sr-only">(current)</span></a></li>
+                    <li class=""><a href="#">&raquo;</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

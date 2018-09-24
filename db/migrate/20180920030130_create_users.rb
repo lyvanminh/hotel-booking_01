@@ -4,11 +4,11 @@ class CreateUsers < ActiveRecord::Migration[5.2]
 
       t.string :user_name
       t.string :password
-      t.string :email
+      t.string :email, unique: true
       t.string :name
       t.string :address
       t.string :phone
-      t.integer :user_type
+      t.integer :user_type, default: 1
       t.string :password_digest
       t.string :remember_digest
       t.boolean :activated, default: false
